@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import './baitapLayOut/style.css'
+import HeaderpartComponent from './baitapLayOut/HeaderpartComponent';
+import BodypartComponent from './baitapLayOut/BodypartComponent';
+import SectionPart from './baitapLayOut/SectionPart';
+import FooterpartComponent from './baitapLayOut/FooterpartComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderpartComponent/>
+      <BodypartComponent/>
+      <SectionPart/>
+      <FooterpartComponent/>
     </div>
   );
 }

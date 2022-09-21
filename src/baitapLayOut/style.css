@@ -1,0 +1,17 @@
+.features{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem; 
+}
+.section{
+    justify-content:space-evenly;
+}
+.section button{
+    border:5px;
+}
+.footer{
+    padding-top: 10px;
+}
